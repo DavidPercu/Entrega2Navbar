@@ -6,29 +6,30 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-     
+       
 }
 
 header {
     width: 100%;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    height: 100px;
+    height: 120px;
     background:rgb(13, 135, 85)
     padding: 0px 40px
 }
 
 .logo {
-    height: 60%;
     
-}
+    width: 25%;
+    background-color: transparent;
+    
+  }
+
 
 .navbar,
 .navbar-links {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 nav {
@@ -36,8 +37,6 @@ nav {
     display:flex;
     justify-content: space-around;
     background-color: rgb(13, 135, 85);
-    align-items: flex-start;
-    
 }
 
 ul {
@@ -54,5 +53,88 @@ ul a {
 body{
     font-family: 'Raleway';
     font-size: 21px;
+    background-color: rgb(13, 135, 50);
+    color: whitesmoke;
+    text-align: justify;
+    text-justify: inter-word
     
 }
+
+#hero {
+    margin-top: 0px;
+    padding: 0px 50px 50px 50px;
+    max-width: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /*.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }*/
+  .hero-info h1 {
+    font-size: 60px;
+    width: 85%;
+    min-width: 600px;
+    font-weight: 900;
+    color: whitesmoke;
+    text-align: justify;
+    
+  }
+  .hero-info p {
+    font-size: 25px;
+    width: 70%;
+    color: whitesmoke;
+    
+}
+
+.button1 {
+    background-color: #008CBA;
+    color: whitesmoke;
+    width: 150px;
+    height: 70px;
+    top: 50%;
+    /*margin-top: -20px;*/
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.button2 {
+    background-color: transparent;
+    color: whitesmoke;
+    width: 150px;
+    height: 70px;
+    top: 50%;
+    /*margin-top: -20px;*/
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.info-h3portada {
+    padding: 0px 50px 50px 50px;
+    border-radius: 1%;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+section div h3{
+    align-items: center;
+    text-align:center;
+    
+  }
+
+div img {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    max-width: 75%;
+    border: none;
+    border-radius: 25px;
+    box-shadow: none;
+}
+
