@@ -36,7 +36,9 @@ nav {
     width: 100%;
     display:flex;
     justify-content: space-around;
-    background-color: rgb(13, 135, 85);
+    /*background-color: rgb(13, 135, 85);*/
+    background-image: linear-gradient(rgb(13, 135, 85), yellow);
+    
 }
 
 ul {
@@ -53,7 +55,7 @@ ul a {
 body{
     font-family: 'Raleway';
     font-size: 21px;
-    background-color: rgb(13, 135, 50);
+    background-color:  rgb(13, 135, 50);
     color: whitesmoke;
     text-align: justify;
     text-justify: inter-word
@@ -68,12 +70,7 @@ body{
     justify-content: space-around;
     align-items: center;
   }
-  /*.hero-info {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 80%;
-  }*/
+  
   .hero-info h1 {
     font-size: 60px;
     width: 85%;
@@ -92,13 +89,14 @@ body{
 
 .button1 {
     background-color: #008CBA;
-    color: whitesmoke;
+    color: blueviolet;
+    background-image: linear-gradient(whitesmoke,orange);
     width: 150px;
     height: 70px;
     top: 50%;
     /*margin-top: -20px;*/
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     cursor: pointer;
     
@@ -106,13 +104,15 @@ body{
 
 .button2 {
     background-color: transparent;
-    color: whitesmoke;
+    color: blueviolet;
+    background-image: linear-gradient(orange, whitesmoke);
+    linear-gradient(yellow, rgb(13, 135, 85) );
     width: 150px;
     height: 70px;
     top: 50%;
     /*margin-top: -20px;*/
     border-radius: 25px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
     cursor: pointer;
 }
